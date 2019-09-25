@@ -21,7 +21,7 @@ variable "log_group_name" {
 }
 
 variable "log_group_retention" {
-  default = 365
+  default     = 365
   description = "CloudWatch log group rentention in days"
 }
 
